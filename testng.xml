@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Library Management Selenium Suite">
+    <test name="Library Management UI Tests">
+        <classes>
+            <class name="com.library.automation.tests.AddBookTest"/>
+            <class name="com.library.automation.tests.SearchBookTest"/>
+            <class name="com.library.automation.tests.BorrowReturnBookTest"/>
+            <class name="com.library.automation.tests.ValidationTest"/>
+        </classes>
+    </test>
+</suite>

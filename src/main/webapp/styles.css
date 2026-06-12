@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    padding: 9px;
+    border: 1px solid #9ca3af;
+    border-radius: 5px;
+}
+
+button {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addBookBtn,
+#searchBtn,
+#borrowBtn {
+    background: #2563eb;
+    color: white;
+}
+
+#resetSearchBtn,
+#returnBtn {
+    background: #4b5563;
+    color: white;
+}
+
+.message {
+    min-height: 24px;
+    font-weight: bold;
+}
+
+.message.success {
+    color: #15803d;
+}
+
+.message.error {
+    color: #b91c1c;
+}
+
+.action-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #e5e7eb;
+}
