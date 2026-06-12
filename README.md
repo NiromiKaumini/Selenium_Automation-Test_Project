@@ -66,13 +66,6 @@ mvn test
 ```bash
 mvn test -Dheadless=false
 ```
-
-## Good interview explanation
-
-You can say:
-
-> I created Selenium automation tests for a Library Management System using Java, Maven, TestNG, and the Page Object Model. I tested core user flows such as adding books, searching books, borrowing books, returning books, and validation messages. I separated page actions from test cases to keep the framework clean and maintainable.
-
 <img width="1287" height="410" alt="image" src="https://github.com/user-attachments/assets/4322ea95-ce1e-41c9-9c8e-7239fb7f65bf" />
 <img width="1113" height="426" alt="image" src="https://github.com/user-attachments/assets/627fab85-6865-4ce3-969e-7e0f581f3f91" />
 <img width="1150" height="501" alt="image" src="https://github.com/user-attachments/assets/8254722d-cbfa-457c-82e5-cef8dd165758" />
